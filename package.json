@@ -13,5 +13,14 @@
   "version": "0.1.0",
   "devDependencies": {
     "webpack-dev-server": "^3.11.1"
-  }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-pgbouncer"
+    },
+    {
+      "url": "heroku/ruby"
+    }
+  ]
 }
+
