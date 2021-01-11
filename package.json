@@ -15,9 +15,9 @@
     "webpack-dev-server": "^3.11.1"
   },
   "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-pgbouncer"
-    },
+    // {
+    //   "url": "https://github.com/heroku/heroku-buildpack-pgbouncer"
+    // },
     {
       "url": "heroku/ruby"
     }
